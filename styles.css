@@ -1,0 +1,52 @@
+html {
+    background-color: rgb(198, 189, 178);
+    font-family: monospace;
+}
+
+.tag {
+    background-color: antiquewhite;
+    font-weight: 900;
+    padding: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 50px 0px;
+    text-align: center;
+    min-width: 400px;
+    font-size: 30px;
+}
+
+table {
+    margin: 25px, 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: rgb(222, 201, 185);
+}
+th {
+    background-color: sienna;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer {
+    text-align: right;
+    margin-top: 20px;
+}
